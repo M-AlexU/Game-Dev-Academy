@@ -537,6 +537,10 @@ footer .copyright {
     margin-top: 36px;
 }
 
+footer .copyright:last-child {
+    margin: 0;
+}
+
 /* Media queries */
 
 /* Tablet */
