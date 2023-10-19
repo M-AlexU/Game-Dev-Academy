@@ -19,13 +19,13 @@ window.addEventListener("scroll", () => {
     }
 });
 
-menuIcon.addEventListener("pointerdown", () => {
+settings.menuIcon.addEventListener("pointerdown", () => {
     const { mobileMenuContainer } = settings;
 
     mobileMenuContainer.classList.add("active");
 })
 
-closeIcon.addEventListener("pointerdown", () => {
+settings.closeIcon.addEventListener("pointerdown", () => {
     const { mobileMenuContainer } = settings;
 
     mobileMenuContainer.classList.remove("active");
